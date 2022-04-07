@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #292424;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow: hidden;
+}
+
+.services-front-text {
+  color: white;
+  position: relative;
+  left: 500px;
+}
+#services {
+  color: white;
+}
+
+.text-one {
+  color: red;
+  padding: 0px 0px 10px 150px;
+}
+.text-two {
+  margin: 0px 0px 70px 0px;
+}
+
+.fullstack {
+  display: flex;
+  flex-direction: row;
+}
+
+.logonode {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0px 0px 5px 20px;
+}
+
+.logoreact {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0px 0px 5px 20px;
+}
+.frontend {
+  max-width: 700px;
+  border-radius: 20px;
+  border: 2px solid white;
+  padding: 20px 50px;
+  margin: 0px 25px;
+}
+
+.frontend-title-logo {
+  display: flex;
+  flex-direction: row;
+}
+.frontend-article {
+  justify-content: center;
+  padding: 0px 20px;
+}
+.frontend-title {
+  padding: 12px 0px 0px 30px;
+  color: red;
+}
+
+.backend {
+  max-width: 700px;
+  border-radius: 20px;
+  border: 2px solid white;
+  padding: 20px 50px;
+  margin: 0px 25px;
+}
+
+.backend-title-logo {
+  display: flex;
+  flex-direction: row;
+}
+.backend-article {
+  justify-content: center;
+  padding: 0px 20px;
+}
+.backend-title {
+  padding: 12px 0px 0px 30px;
+  color: red;
+}

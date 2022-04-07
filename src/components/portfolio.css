@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #292424;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow: hidden;
+}
+#portfolio {
+  position: relative;
+  /* left: 400px; */
+  color: white;
+}
+
+.project-text-one {
+  color: red;
+}

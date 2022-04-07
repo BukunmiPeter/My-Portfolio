@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #292424;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow: hidden;
+}
+
+.header {
+}
+
+#Home {
+  position: absolute;
+  color: white;
+  left: 300px;
+  top: 250px;
+}
+.hire-me {
+  border-radius: 30px;
+  border: none;
+  padding: 10px 30px;
+  background-color: #4195c3;
+}
+.name {
+  font-size: 60px;
+  color: red;
+}

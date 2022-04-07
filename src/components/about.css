@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #292424;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#About {
+  /* left: 400px; */
+  color: white;
+}
+.about-boxes {
+  display: flex;
+  flex-direction: row;
+}
+
+.about-part-one {
+  min-width: 500px;
+  height: 120px;
+}
+.about-part-two {
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-text-two {
+  margin: 30px 0px;
+  color: red;
+}
+
+.downloadcv {
+  border: none;
+  background-color: #4195c3;
+  width: 170px;
+  height: 50px;
+  border-radius: 20px;
+  margin: 50px 0;
+}

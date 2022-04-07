@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #292424;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact {
+  color: white;
+  position: absolute;
+  left: 120px;
+}
+
+.contact-text {
+  position: relative;
+  left: 280px;
+}
+
+.contact-text-two {
+  color: red;
+  padding: 0px 290px;
+}
+.contact-text-three {
+  padding: 0px 0px;
+}
+.contact-boxes {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 0px;
+  align-items: center;
+}
+
+.contact-input-field {
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+  /* min-height: 500px; */
+}
+
+.input-email-phnno {
+  display: flex;
+  flex-direction: row;
+}
+.con-list-box {
+  min-height: 500px;
+}
+
+.contact-list {
+  color: white;
+  list-style: none;
+  cursor: pointer;
+  margin: 0px 0px;
+}
+.con-list {
+  margin: 70px 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.input-text {
+  background-color: #292424;
+  padding: 5px;
+  border-radius: 20px;
+  margin: 20px;
+  border: 1px groove white;
+  color: white;
+  min-width: 300px;
+}
+.svg-address-div {
+  width: 50px;
+  height: 50px;
+  background-color: #4195c3;
+  border-radius: 50%;
+  margin: -5px 30px;
+}
+.svg-address {
+  width: 20px;
+  height: auto;
+  margin: 12px 0px 0px 15px;
+}
+
+.address-text {
+}
+.svg-email-div {
+  width: 50px;
+  height: 50px;
+  background-color: #4195c3;
+  border-radius: 50%;
+  margin: -15px 30px;
+}
+.svg-email {
+  width: 20px;
+  height: auto;
+  margin: 12px 0px 0px 15px;
+}
+
+.svg-phn-div {
+  width: 50px;
+  height: 50px;
+  background-color: #4195c3;
+  border-radius: 50%;
+  margin: -15px 30px;
+}
+
+.svg-phn {
+  width: 20px;
+  height: auto;
+  margin: 12px 0px 0px 15px;
+}
+
+.phn-text {
+}
+
+.submit {
+  border: none;
+  background-color: #4195c3;
+  width: 170px;
+  height: 50px;
+  border-radius: 20px;
+  margin: 30px;
+}
