@@ -2,6 +2,7 @@ import React from "react";
 import "./about.css";
 import Layout from "./Layout";
 import mypic from "./images/mypic.png";
+import Pdf from "./download/ADEYEMO OLUWABUKUNMI PETER.pdf";
 
 function About() {
   return (
@@ -24,7 +25,9 @@ function About() {
               platforms to propel competitive advantage and revenue growth.
             </article>
             <div className="btn-div">
-              <button className="downloadcv">Download CV</button>
+              <button className="downloadcv">
+                <a href={Pdf}>Download CV</a>
+              </button>
             </div>
           </div>
         </div>
