@@ -13,7 +13,7 @@ function Services() {
         <div className="services-front-text">
           <h1 className="text-one">My Services</h1>
           <h4 className="text-two">
-            My Full Stack Web Develpment services include:
+            My Full Stack Web Development services include:
           </h4>
         </div>
         <div className="fullstack">
@@ -23,11 +23,21 @@ function Services() {
               <h4 className="frontend-title">Frontend</h4>
             </div>
             <article className="frontend-article">
-              fdhbdvdibif egkndfdf fgndjndf dfjndfjkndfn fjfgifjf fjfnfnifk
-              fkfnkmfmf fkfmkmfkmf fkmkmfkfmmf fkmfkmffk dfkjndnfojd dkfndknfkno
-              dfndldndk ytnfghfh dfhfndtgdh dffncdhdfhfd dfhyugh dfhfutjf
-              dryhgjnh dffhyrhd rutj hdfjnhd fjrjtnhfrfg eryhhrdeht rgfsdrgrhrf
-              dfgetgerhgerh rdherdfehhfnd shrdhfrfdsfs.
+              <p>
+                - Developing and maintaining user-facing features using
+                React.js.
+              </p>
+              <p>
+                - Building resuable components and front-end libraries for
+                future use.
+              </p>
+
+              <p>- Translating designs and wireframes into high quality code</p>
+
+              <p>
+                - Optimizing applications for maximum perfomance across a vast
+                of web-capable devices and browsers.
+              </p>
             </article>
           </div>
           <div className="backend">
@@ -36,11 +46,14 @@ function Services() {
               <h4 className="backend-title">Backend</h4>
             </div>
             <article className="backend-article">
-              fdhbdvdibif egkndfdf fgndjndf dfjndfjkndfn fjfgifjf fjfnfnifk
-              fkfnkmfmf fkfmkmfkmf fkmkmfkfmmf fkmfkmffk dfkjndnfojd dkfndknfkno
-              dfndldndk ytnfghfh dfhfndtgdh dffncdhdfhfd dfhyugh dfhfutjf
-              dryhgjnh dffhyrhd rutj hdfjnhd fjrjtnhfrfg eryhhrdeht rgfsdrgrhrf
-              dfgetgerhgerh rdherdfehhfnd shrdhfrfdsfs.
+              <p>
+                - Integrating user-facing elements developed by frontend
+                developers with server side logic.
+              </p>
+              <p>- Building resuable code and libraries for future use</p>
+              <p>- Optimizing applications for maximum speed and scalability</p>
+              <p>- Implementing of security and data protection</p>
+              <p>- Designing and implementing data storage solutions</p>
             </article>
           </div>
         </div>

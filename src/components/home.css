@@ -1,28 +1,47 @@
-body {
+* {
   margin: 0;
   padding: 0;
-  background: #292424;
   box-sizing: border-box;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  overflow: hidden;
 }
 
+body {
+  font-family: sans-serif;
+  font-size: 30px;
+  background-color: black;
+  overflow: hidden;
+}
 .header {
 }
 
 #Home {
-  position: absolute;
-  color: white;
-  left: 300px;
-  top: 250px;
+  margin: 80px 200px;
 }
+
+.read {
+  font-size: 20px;
+  color: grey;
+  opacity: 0.9;
+  padding-bottom: 30px;
+}
+.text3 {
+  color: grey;
+  opacity: 0.9;
+}
+
+.text4 {
+  color: grey;
+  opacity: 0.9;
+}
+
 .hire-me {
+  width: 200px;
+  height: 40px;
   border-radius: 30px;
   border: none;
-  padding: 10px 30px;
   background-color: #4195c3;
+  cursor: pointer;
+  font-size: 20px;
 }
 .name {
   font-size: 60px;
-  color: red;
 }

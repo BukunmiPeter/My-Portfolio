@@ -1,6 +1,7 @@
 import React from "react";
 import "./home.css";
 import Layout from "./Layout";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -8,18 +9,27 @@ function Home() {
       <Layout />
       <section id="Home">
         <article>
-          <h5 className="">Hi, my name is</h5>
-          <h1 className="name">Adeyemo Oluwabukunmi Peter</h1>
-          <br />
-          <h5 className="text3">MERN Full-Stack Web Developer</h5>A professional
-          web developer on both the frontend and backend.
+          <p className="read">Hi, my name is</p>
+          <p className="name">Adeyemo Oluwabukunmi Peter</p>
+          <p className="text3">Full-Stack Web Developer</p>
         </article>
-        <br />
 
-        <button className="hire-me">Hire Me</button>
+        <Link to="/Contact">
+          <button className="hire-me">Hire me</button>
+        </Link>
+        <button></button>
       </section>
     </>
   );
 }
 
 export default Home;
+
+/* <button
+          className="hire-me"
+          onClick={() =>
+            (window.location = "mailto:oluwabukunmiadeyemo99@gmail.com")
+          }
+        >
+          Hire me
+        </button> */

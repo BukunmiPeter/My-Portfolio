@@ -16,7 +16,7 @@ function Layout() {
           </li>
           <li className="nav-list">
             <Link className="link" to="/About">
-              About
+              About me
             </Link>
           </li>
           <li className="nav-list">
